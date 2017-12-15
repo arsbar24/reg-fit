@@ -1,0 +1,16 @@
+Package: RegularizedFits
+Type: Package
+Title: Does Some Simple Regularized Fits To Data
+Version: 0.1.0
+Authors@R: person("Alistair", "Barton", email = "arsbar@math.ubc.ca",
+  role = c("aut", "cre"))
+Description: Includes two functions: one for doing L2 regularized linear fits to data, and one for finding optimal regularizing coefficient using cross-validation. 
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: ggplot2
